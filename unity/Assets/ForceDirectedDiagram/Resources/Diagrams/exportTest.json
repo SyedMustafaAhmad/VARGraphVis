@@ -1,0 +1,55 @@
+{
+    "nodes": [
+        {
+            "label": "A",
+            "id": "A",
+            "group": "",
+            "depth": 0,
+            "isFixed": false,
+            "fixedPosition": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "neighboursIds": []
+        },
+        {
+            "label": "B",
+            "id": "B",
+            "group": "",
+            "depth": 0,
+            "isFixed": false,
+            "fixedPosition": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "neighboursIds": []
+        },
+        {
+            "label": "C",
+            "id": "C",
+            "group": "",
+            "depth": 0,
+            "isFixed": false,
+            "fixedPosition": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "neighboursIds": []
+        }
+    ],
+    "links": [
+        {
+            "source": "A",
+            "target": "B",
+            "value": "1"
+        },
+        {
+            "source": "B",
+            "target": "C",
+            "value": "1"
+        }
+    ]
+}
