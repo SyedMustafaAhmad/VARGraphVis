@@ -1,0 +1,343 @@
+{
+    "nodes": [
+        {
+            "label": "New node",
+            "description": "",
+            "id": "New node 0",
+            "group": 0,
+            "depth": 0,
+            "isFixed": false,
+            "fixedPosition": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "neighboursIds": []
+        },
+        {
+            "label": "New node",
+            "description": "",
+            "id": "New node 1",
+            "group": 1,
+            "depth": 0,
+            "isFixed": false,
+            "fixedPosition": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "neighboursIds": []
+        },
+        {
+            "label": "New node",
+            "description": "",
+            "id": "New node 2",
+            "group": 2,
+            "depth": 0,
+            "isFixed": false,
+            "fixedPosition": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "neighboursIds": []
+        },
+        {
+            "label": "New node",
+            "description": "",
+            "id": "New node 3",
+            "group": 3,
+            "depth": 0,
+            "isFixed": false,
+            "fixedPosition": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "neighboursIds": []
+        },
+        {
+            "label": "New node",
+            "description": "",
+            "id": "New node 4",
+            "group": 4,
+            "depth": 0,
+            "isFixed": false,
+            "fixedPosition": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "neighboursIds": []
+        },
+        {
+            "label": "New node",
+            "description": "",
+            "id": "New node 5",
+            "group": 5,
+            "depth": 0,
+            "isFixed": false,
+            "fixedPosition": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "neighboursIds": []
+        },
+        {
+            "label": "New node",
+            "description": "",
+            "id": "New node 6",
+            "group": 6,
+            "depth": 0,
+            "isFixed": false,
+            "fixedPosition": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "neighboursIds": []
+        },
+        {
+            "label": "New node",
+            "description": "",
+            "id": "New node 7",
+            "group": 7,
+            "depth": 0,
+            "isFixed": false,
+            "fixedPosition": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "neighboursIds": []
+        },
+        {
+            "label": "New node",
+            "description": "",
+            "id": "New node 8",
+            "group": 8,
+            "depth": 0,
+            "isFixed": false,
+            "fixedPosition": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "neighboursIds": []
+        },
+        {
+            "label": "New node",
+            "description": "",
+            "id": "New node 9",
+            "group": 9,
+            "depth": 0,
+            "isFixed": false,
+            "fixedPosition": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "neighboursIds": []
+        },
+        {
+            "label": "New node",
+            "description": "",
+            "id": "New node 10",
+            "group": 10,
+            "depth": 0,
+            "isFixed": false,
+            "fixedPosition": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "neighboursIds": []
+        },
+        {
+            "label": "New node",
+            "description": "",
+            "id": "New node 11",
+            "group": 11,
+            "depth": 0,
+            "isFixed": false,
+            "fixedPosition": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "neighboursIds": []
+        },
+        {
+            "label": "New node",
+            "description": "",
+            "id": "New node 12",
+            "group": 12,
+            "depth": 0,
+            "isFixed": false,
+            "fixedPosition": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "neighboursIds": []
+        },
+        {
+            "label": "New node",
+            "description": "",
+            "id": "New node 13",
+            "group": 13,
+            "depth": 0,
+            "isFixed": false,
+            "fixedPosition": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "neighboursIds": []
+        },
+        {
+            "label": "New node",
+            "description": "",
+            "id": "New node 14",
+            "group": 14,
+            "depth": 0,
+            "isFixed": false,
+            "fixedPosition": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "neighboursIds": []
+        },
+        {
+            "label": "New node",
+            "description": "",
+            "id": "New node 15",
+            "group": 15,
+            "depth": 0,
+            "isFixed": false,
+            "fixedPosition": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "neighboursIds": []
+        },
+        {
+            "label": "New node",
+            "description": "",
+            "id": "New node 16",
+            "group": 16,
+            "depth": 0,
+            "isFixed": false,
+            "fixedPosition": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "neighboursIds": []
+        },
+        {
+            "label": "New node",
+            "description": "",
+            "id": "New node 17",
+            "group": 17,
+            "depth": 0,
+            "isFixed": false,
+            "fixedPosition": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "neighboursIds": []
+        }
+    ],
+    "links": [
+        {
+            "source": "New node 1",
+            "target": "New node 0",
+            "value": 1
+        },
+        {
+            "source": "New node 2",
+            "target": "New node 1",
+            "value": 1
+        },
+        {
+            "source": "New node 3",
+            "target": "New node 2",
+            "value": 1
+        },
+        {
+            "source": "New node 4",
+            "target": "New node 3",
+            "value": 1
+        },
+        {
+            "source": "New node 5",
+            "target": "New node 4",
+            "value": 1
+        },
+        {
+            "source": "New node 6",
+            "target": "New node 5",
+            "value": 1
+        },
+        {
+            "source": "New node 7",
+            "target": "New node 5",
+            "value": 1
+        },
+        {
+            "source": "New node 8",
+            "target": "New node 5",
+            "value": 1
+        },
+        {
+            "source": "New node 9",
+            "target": "New node 3",
+            "value": 1
+        },
+        {
+            "source": "New node 10",
+            "target": "New node 0",
+            "value": 1
+        },
+        {
+            "source": "New node 11",
+            "target": "New node 0",
+            "value": 1
+        },
+        {
+            "source": "New node 12",
+            "target": "New node 9",
+            "value": 1
+        },
+        {
+            "source": "New node 13",
+            "target": "New node 12",
+            "value": 1
+        },
+        {
+            "source": "New node 14",
+            "target": "New node 12",
+            "value": 1
+        },
+        {
+            "source": "New node 15",
+            "target": "New node 12",
+            "value": 1
+        },
+        {
+            "source": "New node 16",
+            "target": "New node 3",
+            "value": 1
+        },
+        {
+            "source": "New node 17",
+            "target": "New node 16",
+            "value": 1
+        }
+    ]
+}

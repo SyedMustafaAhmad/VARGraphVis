@@ -1,0 +1,120 @@
+#pragma kernel CalculateForces
+
+// Struct to represent a node
+struct Node
+{
+    float3 position;
+    int isFixed;
+};
+
+// Struct to represent a link between nodes
+struct Link
+{
+    uint sourceIndex;
+    uint targetIndex;
+    float distanceBetweenNodes;
+};
+
+// Buffer to store node data
+RWStructuredBuffer<Node> nodes;
+// Buffer to store link data
+RWStructuredBuffer<Link> links;
+// Buffer to store output forces
+RWStructuredBuffer<float3> forces;
+
+float _springStrength;
+float _repulsionStrength;
+float _gravityStrength;
+
+// Function to calculate the force between two nodes
+float3 CalculateForce(float3 pos1, float3 pos2, float distanceSquared,
+                      float repulsionStrength)
+{
+    // float forceMagnitude = repulsionStrength * (mass1 * mass2) / distanceSquared;
+    float forceMagnitude = repulsionStrength * (1 * 1) / distanceSquared;
+    return forceMagnitude * normalize(pos1 - pos2);
+}
+
+// Compute shader kernel to calculate forces
+[numthreads(64, 1, 1)]
+void CalculateForces(uint3 dispatchThreadId : SV_DispatchThreadID)
+{
+    uint nodeIndex = dispatchThreadId.x;
+    forces[nodeIndex] = 0;
+
+    uint nodesLength;
+    uint stride;
+    nodes.GetDimensions(nodesLength, stride);
+    
+    if (nodeIndex >= nodesLength)
+        return;
+
+    Node node = nodes[nodeIndex];
+
+    if (node.isFixed == 1) return;
+
+    float3 nodePosition = node.position;
+
+    float3 repulsionForce = float3(0.0f, 0.0f, 0.0f);
+
+    //Calculate repulsion force between nodes
+    for (uint i = 0; i < nodesLength; i++)
+    {
+        if (i == nodeIndex)
+            continue;
+
+        Node subNode = nodes[i];
+        float3 subNodePosition = subNode.position;
+        float3 distanceVector = nodePosition - subNodePosition;
+        float distanceSquared = dot(distanceVector, distanceVector);
+
+        float3 repulsionWithNode = CalculateForce(nodePosition, subNodePosition,
+                                                  distanceSquared, _repulsionStrength);
+        repulsionForce += repulsionWithNode;
+    }
+
+    forces[nodeIndex] += repulsionForce;
+
+    uint linksLength;
+    uint strideLinks;
+    links.GetDimensions(linksLength, strideLinks);
+    
+    //Calculate spring force between nodes
+    for (uint j = 0; j < linksLength; j++)
+    {
+        Link link = links[j];
+
+        if (link.sourceIndex == nodeIndex)
+        {
+            Node targetNode = nodes[link.targetIndex];
+            float3 targetNodePosition = targetNode.position;
+            float3 distanceVector = nodePosition - targetNodePosition;
+            float distance = length(distanceVector);
+
+            float3 springForce = (link.distanceBetweenNodes - distance) * _springStrength * normalize(distanceVector);
+            forces[nodeIndex] += springForce;
+        }
+        else if (link.targetIndex == nodeIndex)
+        {
+            Node sourceNode = nodes[link.sourceIndex];
+            float3 sourceNodePosition = sourceNode.position;
+            float3 distanceVector = nodePosition - sourceNodePosition;
+            float distance = length(distanceVector);
+
+            float3 springForce = (link.distanceBetweenNodes - distance) * _springStrength * normalize(distanceVector);
+            forces[nodeIndex] += springForce;
+        }
+    }
+
+    // Apply gravity force towards the center
+    float lengthNodePosition = length(nodePosition);
+
+    if (lengthNodePosition > 1)
+    {
+        forces[nodeIndex] += -_gravityStrength * normalize(nodePosition);
+    }
+    else
+    {
+        forces[nodeIndex] += -_gravityStrength * nodePosition;
+    }
+}

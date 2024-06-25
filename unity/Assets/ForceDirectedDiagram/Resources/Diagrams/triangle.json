@@ -1,0 +1,36 @@
+{
+  "nodes": [
+    {
+      "id": "Alpha",
+      "label": "Alpha",
+      "group": 1
+    },
+    {
+      "id": "Beta",
+      "label": "Beta",
+      "group": 1
+    },
+    {
+      "id": "Gamma",
+      "label": "Gamma",
+      "group": 1
+    }
+  ],
+  "links": [
+    {
+      "source": "Alpha",
+      "target": "Beta",
+      "value": 1
+    },
+    {
+      "source": "Alpha",
+      "target": "Gamma",
+      "value": 1
+    },
+    {
+      "source": "Gamma",
+      "target": "Beta",
+      "value": 1
+    }
+  ]
+}
