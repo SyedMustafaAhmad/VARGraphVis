@@ -1,0 +1,517 @@
+{
+    "nodes": [
+        {
+            "label": "1",
+            "isFixed": true,
+            "fixedPosition": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "children": [
+                {
+                    "label": "11",
+                    "isFixed": false,
+                    "fixedPosition": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "children": [
+                        {
+                            "label": "111",
+                            "isFixed": false,
+                            "fixedPosition": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "children": []
+                        },
+                        {
+                            "label": "112",
+                            "isFixed": false,
+                            "fixedPosition": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "children": []
+                        },
+                        {
+                            "label": "113",
+                            "isFixed": false,
+                            "fixedPosition": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "label": "12",
+                    "isFixed": false,
+                    "fixedPosition": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "children": [
+                        {
+                            "label": "121",
+                            "isFixed": false,
+                            "fixedPosition": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "children": []
+                        },
+                        {
+                            "label": "122",
+                            "isFixed": false,
+                            "fixedPosition": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "children": []
+                        },
+                        {
+                            "label": "123",
+                            "isFixed": false,
+                            "fixedPosition": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "children": []
+                        },
+                        {
+                            "label": "124",
+                            "isFixed": false,
+                            "fixedPosition": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "children": [
+                                {
+                                    "label": "121",
+                                    "isFixed": false,
+                                    "fixedPosition": {
+                                        "x": 0.0,
+                                        "y": 0.0,
+                                        "z": 0.0
+                                    },
+                                    "children": [
+                                        {
+                                            "label": "121",
+                                            "isFixed": false,
+                                            "fixedPosition": {
+                                                "x": 0.0,
+                                                "y": 0.0,
+                                                "z": 0.0
+                                            },
+                                            "children": []
+                                        },
+                                        {
+                                            "label": "122",
+                                            "isFixed": false,
+                                            "fixedPosition": {
+                                                "x": 0.0,
+                                                "y": 0.0,
+                                                "z": 0.0
+                                            },
+                                            "children": []
+                                        },
+                                        {
+                                            "label": "123",
+                                            "isFixed": false,
+                                            "fixedPosition": {
+                                                "x": 0.0,
+                                                "y": 0.0,
+                                                "z": 0.0
+                                            },
+                                            "children": []
+                                        },
+                                        {
+                                            "label": "124",
+                                            "isFixed": false,
+                                            "fixedPosition": {
+                                                "x": 0.0,
+                                                "y": 0.0,
+                                                "z": 0.0
+                                            },
+                                            "children": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "label": "122",
+                                    "isFixed": false,
+                                    "fixedPosition": {
+                                        "x": 0.0,
+                                        "y": 0.0,
+                                        "z": 0.0
+                                    },
+                                    "children": [
+                                        {
+                                            "label": "121",
+                                            "isFixed": false,
+                                            "fixedPosition": {
+                                                "x": 0.0,
+                                                "y": 0.0,
+                                                "z": 0.0
+                                            },
+                                            "children": []
+                                        },
+                                        {
+                                            "label": "122",
+                                            "isFixed": false,
+                                            "fixedPosition": {
+                                                "x": 0.0,
+                                                "y": 0.0,
+                                                "z": 0.0
+                                            },
+                                            "children": []
+                                        },
+                                        {
+                                            "label": "123",
+                                            "isFixed": false,
+                                            "fixedPosition": {
+                                                "x": 0.0,
+                                                "y": 0.0,
+                                                "z": 0.0
+                                            },
+                                            "children": []
+                                        },
+                                        {
+                                            "label": "124",
+                                            "isFixed": false,
+                                            "fixedPosition": {
+                                                "x": 0.0,
+                                                "y": 0.0,
+                                                "z": 0.0
+                                            },
+                                            "children": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "label": "123",
+                                    "isFixed": false,
+                                    "fixedPosition": {
+                                        "x": 0.0,
+                                        "y": 0.0,
+                                        "z": 0.0
+                                    },
+                                    "children": [
+                                        {
+                                            "label": "121",
+                                            "isFixed": false,
+                                            "fixedPosition": {
+                                                "x": 0.0,
+                                                "y": 0.0,
+                                                "z": 0.0
+                                            },
+                                            "children": []
+                                        },
+                                        {
+                                            "label": "122",
+                                            "isFixed": false,
+                                            "fixedPosition": {
+                                                "x": 0.0,
+                                                "y": 0.0,
+                                                "z": 0.0
+                                            },
+                                            "children": []
+                                        },
+                                        {
+                                            "label": "123",
+                                            "isFixed": false,
+                                            "fixedPosition": {
+                                                "x": 0.0,
+                                                "y": 0.0,
+                                                "z": 0.0
+                                            },
+                                            "children": [
+                                                {
+                                                    "label": "121",
+                                                    "isFixed": false,
+                                                    "fixedPosition": {
+                                                        "x": 0.0,
+                                                        "y": 0.0,
+                                                        "z": 0.0
+                                                    },
+                                                    "children": []
+                                                },
+                                                {
+                                                    "label": "122",
+                                                    "isFixed": false,
+                                                    "fixedPosition": {
+                                                        "x": 0.0,
+                                                        "y": 0.0,
+                                                        "z": 0.0
+                                                    },
+                                                    "children": []
+                                                },
+                                                {
+                                                    "label": "123",
+                                                    "isFixed": false,
+                                                    "fixedPosition": {
+                                                        "x": 0.0,
+                                                        "y": 0.0,
+                                                        "z": 0.0
+                                                    },
+                                                    "children": []
+                                                },
+                                                {
+                                                    "label": "124",
+                                                    "isFixed": false,
+                                                    "fixedPosition": {
+                                                        "x": 0.0,
+                                                        "y": 0.0,
+                                                        "z": 0.0
+                                                    },
+                                                    "children": [
+                                                        {
+                                                            "label": "121",
+                                                            "isFixed": false,
+                                                            "fixedPosition": {
+                                                                "x": 0.0,
+                                                                "y": 0.0,
+                                                                "z": 0.0
+                                                            },
+                                                            "children": []
+                                                        },
+                                                        {
+                                                            "label": "122",
+                                                            "isFixed": false,
+                                                            "fixedPosition": {
+                                                                "x": 0.0,
+                                                                "y": 0.0,
+                                                                "z": 0.0
+                                                            },
+                                                            "children": []
+                                                        },
+                                                        {
+                                                            "label": "123",
+                                                            "isFixed": false,
+                                                            "fixedPosition": {
+                                                                "x": 0.0,
+                                                                "y": 0.0,
+                                                                "z": 0.0
+                                                            },
+                                                            "children": []
+                                                        },
+                                                        {
+                                                            "label": "124",
+                                                            "isFixed": false,
+                                                            "fixedPosition": {
+                                                                "x": 0.0,
+                                                                "y": 0.0,
+                                                                "z": 0.0
+                                                            },
+                                                            "children": [
+                                                                {
+                                                                    "label": "121",
+                                                                    "isFixed": false,
+                                                                    "fixedPosition": {
+                                                                        "x": 0.0,
+                                                                        "y": 0.0,
+                                                                        "z": 0.0
+                                                                    },
+                                                                    "children": []
+                                                                },
+                                                                {
+                                                                    "label": "122",
+                                                                    "isFixed": false,
+                                                                    "fixedPosition": {
+                                                                        "x": 0.0,
+                                                                        "y": 0.0,
+                                                                        "z": 0.0
+                                                                    },
+                                                                    "children": []
+                                                                },
+                                                                {
+                                                                    "label": "123",
+                                                                    "isFixed": false,
+                                                                    "fixedPosition": {
+                                                                        "x": 0.0,
+                                                                        "y": 0.0,
+                                                                        "z": 0.0
+                                                                    },
+                                                                    "children": [
+                                                                        {
+                                                                            "label": "121",
+                                                                            "isFixed": false,
+                                                                            "fixedPosition": {
+                                                                                "x": 0.0,
+                                                                                "y": 0.0,
+                                                                                "z": 0.0
+                                                                            },
+                                                                            "children": []
+                                                                        },
+                                                                        {
+                                                                            "label": "122",
+                                                                            "isFixed": false,
+                                                                            "fixedPosition": {
+                                                                                "x": 0.0,
+                                                                                "y": 0.0,
+                                                                                "z": 0.0
+                                                                            },
+                                                                            "children": []
+                                                                        },
+                                                                        {
+                                                                            "label": "123",
+                                                                            "isFixed": false,
+                                                                            "fixedPosition": {
+                                                                                "x": 0.0,
+                                                                                "y": 0.0,
+                                                                                "z": 0.0
+                                                                            },
+                                                                            "children": []
+                                                                        },
+                                                                        {
+                                                                            "label": "124",
+                                                                            "isFixed": false,
+                                                                            "fixedPosition": {
+                                                                                "x": 0.0,
+                                                                                "y": 0.0,
+                                                                                "z": 0.0
+                                                                            },
+                                                                            "children": []
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "label": "124",
+                                                                    "isFixed": false,
+                                                                    "fixedPosition": {
+                                                                        "x": 0.0,
+                                                                        "y": 0.0,
+                                                                        "z": 0.0
+                                                                    },
+                                                                    "children": [
+                                                                        {
+                                                                            "label": "121",
+                                                                            "isFixed": false,
+                                                                            "fixedPosition": {
+                                                                                "x": 0.0,
+                                                                                "y": 0.0,
+                                                                                "z": 0.0
+                                                                            },
+                                                                            "children": []
+                                                                        },
+                                                                        {
+                                                                            "label": "122",
+                                                                            "isFixed": false,
+                                                                            "fixedPosition": {
+                                                                                "x": 0.0,
+                                                                                "y": 0.0,
+                                                                                "z": 0.0
+                                                                            },
+                                                                            "children": []
+                                                                        },
+                                                                        {
+                                                                            "label": "123",
+                                                                            "isFixed": false,
+                                                                            "fixedPosition": {
+                                                                                "x": 0.0,
+                                                                                "y": 0.0,
+                                                                                "z": 0.0
+                                                                            },
+                                                                            "children": []
+                                                                        },
+                                                                        {
+                                                                            "label": "124",
+                                                                            "isFixed": false,
+                                                                            "fixedPosition": {
+                                                                                "x": 0.0,
+                                                                                "y": 0.0,
+                                                                                "z": 0.0
+                                                                            },
+                                                                            "children": []
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "label": "124",
+                                            "isFixed": false,
+                                            "fixedPosition": {
+                                                "x": 0.0,
+                                                "y": 0.0,
+                                                "z": 0.0
+                                            },
+                                            "children": [
+                                                {
+                                                    "label": "121",
+                                                    "isFixed": false,
+                                                    "fixedPosition": {
+                                                        "x": 0.0,
+                                                        "y": 0.0,
+                                                        "z": 0.0
+                                                    },
+                                                    "children": []
+                                                },
+                                                {
+                                                    "label": "122",
+                                                    "isFixed": false,
+                                                    "fixedPosition": {
+                                                        "x": 0.0,
+                                                        "y": 0.0,
+                                                        "z": 0.0
+                                                    },
+                                                    "children": []
+                                                },
+                                                {
+                                                    "label": "123",
+                                                    "isFixed": false,
+                                                    "fixedPosition": {
+                                                        "x": 0.0,
+                                                        "y": 0.0,
+                                                        "z": 0.0
+                                                    },
+                                                    "children": []
+                                                },
+                                                {
+                                                    "label": "124",
+                                                    "isFixed": false,
+                                                    "fixedPosition": {
+                                                        "x": 0.0,
+                                                        "y": 0.0,
+                                                        "z": 0.0
+                                                    },
+                                                    "children": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "label": "124",
+                                    "isFixed": false,
+                                    "fixedPosition": {
+                                        "x": 0.0,
+                                        "y": 0.0,
+                                        "z": 0.0
+                                    },
+                                    "children": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
